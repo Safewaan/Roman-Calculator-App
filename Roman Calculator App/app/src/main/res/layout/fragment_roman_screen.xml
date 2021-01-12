@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/XRoman"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:onClick="Click"
+        android:text="@string/XRoman"
+        app:layout_constraintStart_toEndOf="@+id/LRoman"
+        app:layout_constraintTop_toBottomOf="@+id/DRoman" />
+
+    <Button
+        android:id="@+id/DRoman"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:onClick="Click"
+        android:text="@string/DRoman"
+        app:layout_constraintStart_toEndOf="@+id/MRoman"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <Button
+        android:id="@+id/MRoman"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:onClick="Click"
+        android:text="@string/MRoman"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <Button
+        android:id="@+id/CRoman"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:onClick="Click"
+        android:text="@string/CRoman"
+        app:layout_constraintStart_toEndOf="@+id/DRoman"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <Button
+        android:id="@+id/deletesign"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="Click"
+        android:text="@string/deletesign"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <Button
+        android:id="@+id/CancelSign"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:onClick="Click"
+        android:text="@string/cancelsign"
+        app:layout_constraintEnd_toStartOf="@+id/deletesign"
+        app:layout_constraintStart_toEndOf="@+id/CRoman"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <Button
+        android:id="@+id/EqualSign"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:onClick="Click"
+        android:text="@string/equalsign"
+        app:layout_constraintEnd_toStartOf="@+id/AdditionSign"
+        app:layout_constraintTop_toBottomOf="@+id/SubtractionSign" />
+
+    <Button
+        android:id="@+id/AdditionSign"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="Click"
+        android:text="@string/additionsign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SubtractionSign" />
+
+    <Button
+        android:id="@+id/SubtractionSign"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="Click"
+        android:text="@string/subtractionsign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MultiplicationSign" />
+
+    <Button
+        android:id="@+id/DivisionSign"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="Click"
+        android:text="@string/divisionsign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deletesign" />
+
+    <Button
+        android:id="@+id/MultiplicationSign"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="Click"
+        android:text="@string/multiplicationsign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DivisionSign" />
+
+    <Button
+        android:id="@+id/LRoman"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="Click"
+        android:text="@string/LRoman"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MRoman" />
+
+    <Button
+        android:id="@+id/IRoman"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="Click"
+        android:text="@string/IRoman"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LRoman" />
+
+    <Button
+        android:id="@+id/VRoman"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:onClick="Click"
+        android:text="@string/VRoman"
+        app:layout_constraintStart_toEndOf="@+id/XRoman"
+        app:layout_constraintTop_toBottomOf="@+id/CRoman" />
+
+</android.support.constraint.ConstraintLayout>
